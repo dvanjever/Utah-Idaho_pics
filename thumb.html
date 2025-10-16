@@ -94,4 +94,29 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 });
 </script>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  // Automatically open the first image (change selector to any specific link)
+  const firstLink = document.querySelector('a[href^="original/20251001_113225%7E2.html"]');
+  if (firstLink) {
+    // Open it in the target frame
+    window.open(firstLink.href, firstLink.target);
+    // Optionally highlight it
+    firstLink.closest("td").classList.add("focused");
+  }
+});
+</script>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  // Automatically open the first image (change selector to any specific link)
+  const firstLink = document.querySelector('a[href^="original/20251001_113225%7E2.html"]');
+  if (firstLink) {
+    // Open it in the target frame
+    window.open(firstLink.href, firstLink.target);
+    // Optionally highlight it
+    firstLink.closest("td").classList.add("focused");
+  }
+});
+</script>
+
 </body></html>
